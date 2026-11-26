@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.cogamer.mbeacompat.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AnvilMenuAccessor",
+    "EasyAnvilMenuMixin"
+  ],
+  "client": [
+    "AnvilScreenAccessor",
+    "EasyAnvilScreenMixin",
+    "ModelBrowserWidgetMixin",
+    "ModelListDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
